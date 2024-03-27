@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+
+# Quiz App
+
+Explore, Learn, and Test Your Knowledge with our React-based MCQ Quiz App! Dive into a variety of topics with multiple-choice questions, challenge yourself, and track your progress. Enjoy a seamless user experience as you engage with interactive quizzes and expand your understanding in a fun and dynamic way!
+
+
+## Demo
+
+https://reactmcqquizspp.netlify.app
+
+## Installation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
