@@ -21,7 +21,7 @@ const Quiz = () => {
   };
 
   const updateScore = () => {
-    if (selectedOption == Data[currentQuestion].answer) {
+    if (selectedOption === Data[currentQuestion].answer) {
       setScore(score + 1);
     }
   };
@@ -51,7 +51,7 @@ const Quiz = () => {
                   return (
                     <>
                       <Button
-                        className={`btn shadow d-flex w-100 justify-content-start mb-3 p-2 ${selectedOption == i + 1 ? "cheked" : null
+                        className={`btn shadow d-flex w-100 justify-content-start mb-3 p-2 ${selectedOption === i + 1 ? "cheked" : null
                           }`}
                         onClick={() => setSelectedOption(i + 1)}>
                         <span className="ms-2">{options}</span>
